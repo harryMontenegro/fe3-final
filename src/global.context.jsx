@@ -1,5 +1,5 @@
 import {createContext, useContext, useEffect, useReducer, useState} from "react";
-import {getAllDentist, getDentisById} from "./helpers/getDentist";
+import {getAllDentist} from "./helpers/getDentist";
 
 
 export const ContextGlobal = createContext();
