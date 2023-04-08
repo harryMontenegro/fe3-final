@@ -1,8 +1,6 @@
 import {createContext, useContext, useEffect, useReducer, useState} from "react";
-import {useDentistFetch} from "./hooks/useDentistFetch";
 import {getAllDentist, getDentisById} from "./helpers/getDentist";
 
-export const initialState = {theme: "", data: []}
 
 export const ContextGlobal = createContext();
 
