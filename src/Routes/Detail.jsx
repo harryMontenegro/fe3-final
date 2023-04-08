@@ -1,6 +1,6 @@
 import React from 'react'
 import {useParams} from "react-router-dom";
-import {useDentistByIdFetch, useDentistFetch} from "../hooks/useDentistFetch";
+import {useDentistByIdFetch} from "../hooks/useDentistFetch";
 
 
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
